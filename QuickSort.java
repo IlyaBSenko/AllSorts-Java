@@ -5,6 +5,15 @@ public class QuickSort {
         if (end <= start) {
             return; // base case
         }
+
+        int pivot = array.length / 2;
+        int i = start -1;
+        for (int j = start; j < end - 1; j++) {
+            if (array[j] <= array[pivot]) {
+                i++;
+                swap()
+            }
+        }
     }
 
 
